@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Peripheral Vascular Intervention Masterclass</title>
+<title>The IR Learning - Peripheral Vascular Intervention Hardware Masterclass</title>
 
 <style>
 
 body{
-margin:0;
-font-family:'Segoe UI',sans-serif;
+font-family:Segoe UI,Arial,sans-serif;
 background:#0d1117;
-color:white;
-line-height:1.7;
+color:#e6edf3;
+margin:0;
+line-height:1.8;
 }
 
 header{
-background:linear-gradient(135deg,#004e92,#000428);
-padding:80px 30px;
+background:linear-gradient(135deg,#001f3f,#005792);
+padding:80px;
 text-align:center;
 }
 
 header h1{
-font-size:48px;
-margin:0;
+font-size:50px;
+margin-bottom:10px;
 }
 
 header p{
-font-size:20px;
-color:#cfd8dc;
+font-size:22px;
+color:#d0d0d0;
 }
 
 section{
-padding:60px;
-max-width:1300px;
+max-width:1200px;
 margin:auto;
+padding:60px;
 }
 
 h2{
 color:#ffd54f;
-font-size:38px;
 border-left:6px solid #ffd54f;
 padding-left:15px;
+margin-top:50px;
 }
 
 h3{
@@ -52,28 +53,14 @@ color:#4fc3f7;
 .card{
 background:#161b22;
 padding:30px;
-border-radius:15px;
+border-radius:12px;
 margin-top:25px;
-box-shadow:0 0 20px rgba(0,0,0,0.3);
 }
 
 img{
 width:100%;
-border-radius:12px;
+border-radius:10px;
 margin-top:20px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-gap:30px;
-}
-
-.highlight{
-background:#263238;
-padding:20px;
-border-left:5px solid #00e676;
-margin:20px 0;
 }
 
 table{
@@ -82,57 +69,111 @@ border-collapse:collapse;
 margin-top:20px;
 }
 
-table th{
+th{
 background:#1565c0;
-padding:15px;
+padding:12px;
 }
 
-table td{
-padding:15px;
+td{
+padding:12px;
 border:1px solid #37474f;
 }
 
-footer{
-text-align:center;
-padding:40px;
-background:#000428;
+.highlight{
+background:#263238;
+padding:20px;
+border-left:5px solid #00e676;
+margin:25px 0;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
 
-<h1>Peripheral Vascular Intervention Masterclass</h1>
+<h1>Peripheral Vascular Intervention Hardware Masterclass</h1>
 
-<p>Complete Guide to Access, Wires, Balloons, Stents, CTO Techniques & Advanced Devices</p>
+<p>
+The IR Learning | Fellowship & DM Interventional Radiology Series
+</p>
 
 </header>
 
 <section>
 
-<h2>1. Endovascular Treatment Workflow</h2>
+<h2>Chapter 1: Introduction to Peripheral Intervention Hardware</h2>
 
 <div class="card">
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Peripheral_angioplasty.jpg">
+
 <p>
 
-Every successful peripheral intervention follows the same pathway:
+Modern peripheral arterial intervention is fundamentally a hardware-driven specialty.
+Unlike many areas of medicine where outcomes depend predominantly on diagnosis or pharmacology, success in peripheral intervention is often determined by the operator's understanding of devices.
+
+Many trainees assume that the most important decision in a peripheral intervention is choosing the stent. In reality, experienced operators recognize that stent selection represents only a small component of procedural success.
+
+Most failures occur much earlier.
+
+A procedure fails because:
 
 </p>
 
-<ol>
-<li>Access the artery</li>
-<li>Cross the lesion</li>
-<li>Create support</li>
-<li>Prepare the vessel</li>
-<li>Treat the lesion</li>
-<li>Manage complications</li>
-</ol>
+<ul>
 
-<img src="images/workflow.jpg">
+<li>Access was suboptimal.</li>
+<li>Support was inadequate.</li>
+<li>The lesion could not be crossed.</li>
+<li>The wrong wire was chosen.</li>
+<li>Calcium modification was insufficient.</li>
+
+</ul>
+
+<p>
+
+The modern philosophy of peripheral intervention can therefore be summarized as:
+
+</p>
+
+<div class="highlight">
+
+Access → Support → Cross → Prepare → Scaffold
+
+</div>
+
+<p>
+
+Every device used in peripheral intervention serves one of these purposes.
+
+The interventionist must understand not only the indications of each device but also the engineering principles that determine how these devices behave within diseased vessels.
+
+Peripheral arterial disease presents unique challenges compared with coronary or neurovascular disease.
+
+Lesions are often:
+
+</p>
+
+<ul>
+
+<li>Long.</li>
+<li>Diffuse.</li>
+<li>Heavily calcified.</li>
+<li>Chronic total occlusions.</li>
+<li>Located in vessels exposed to flexion and compression.</li>
+
+</ul>
+
+<p>
+
+Because of these challenges, peripheral interventions require a broader range of devices than most other endovascular specialties.
+
+The objective of this chapter series is not merely to list available devices but to explain why specific hardware is selected in specific clinical situations.
+
+</p>
 
 </div>
 
@@ -140,118 +181,129 @@ Every successful peripheral intervention follows the same pathway:
 
 <section>
 
-<h2>2. Access Techniques</h2>
-
-<div class="grid">
+<h2>Chapter 2: Access Hardware and Sheaths</h2>
 
 <div class="card">
 
-<h3>Contralateral Femoral Access</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Femoral_artery_access.jpg">
+
+<h3>Why Access Matters</h3>
 
 <p>
-Most common approach.
-Easy puncture and crossover technique.
+
+Access determines procedural success before the first wire even enters the lesion.
+
+A poorly chosen access site creates:
+
 </p>
-
-<img src="images/contralateral_access.jpg">
-
-</div>
-
-<div class="card">
-
-<h3>Ipsilateral Antegrade Access</h3>
-
-<p>
-Provides maximum pushability for SFA and BTK interventions.
-</p>
-
-<img src="images/antegrade_access.jpg">
-
-</div>
-
-<div class="card">
-
-<h3>Retrograde Tibial Access</h3>
-
-<p>
-Useful when antegrade crossing fails.
-</p>
-
-<img src="images/retrograde_tibial.jpg">
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<h2>3. Guidewires</h2>
-
-<div class="card">
-
-<h3>Fielder FC</h3>
 
 <ul>
-<li>Hydrophilic</li>
-<li>Soft tip</li>
-<li>Excellent for stenotic lesions</li>
-<li>Tibial interventions</li>
+
+<li>Insufficient support.</li>
+<li>Excessive device length requirements.</li>
+<li>Difficulty crossing lesions.</li>
+<li>Increased complication rates.</li>
 </ul>
 
-<img src="images/fielder_fc.jpg">
+<p>
 
-</div>
+An experienced operator often spends more time planning access than selecting a stent.
 
-<div class="card">
+</p>
 
-<h3>Command Wire</h3>
+<h3>Micropuncture Sets</h3>
+
+<p>
+
+Modern peripheral interventions almost universally begin with a micropuncture set.
+
+The micropuncture technique minimizes vessel trauma while providing safe vascular entry.
+
+Components include:
+
+</p>
 
 <ul>
-<li>Workhorse wire</li>
-<li>Excellent torque</li>
-<li>Soft CTO crossing</li>
+
+<li>21G needle</li>
+<li>0.018 inch guidewire</li>
+<li>Transition dilator</li>
+<li>Small introducer sheath</li>
 </ul>
 
-<img src="images/command_wire.jpg">
+<p>
 
-</div>
+Advantages include reduced bleeding complications, reduced risk of posterior wall puncture and easier ultrasound-guided access.
 
-<div class="card">
+</p>
 
-<h3>CTO Wire Escalation</h3>
+<h3>Sheath Physics</h3>
+
+<p>
+
+A sheath is not merely a conduit.
+
+It serves four critical functions:
+
+</p>
+
+<ul>
+
+<li>Provides support.</li>
+<li>Facilitates device exchange.</li>
+<li>Permits contrast injection.</li>
+<li>Maintains hemostasis.</li>
+</ul>
+
+<p>
+
+Long sheaths significantly improve pushability and torque transmission.
+
+This becomes particularly important during femoropopliteal and tibial interventions.
+
+</p>
+
+<h3>Common Peripheral Sheaths</h3>
 
 <table>
 
 <tr>
-<th>Lesion</th>
-<th>Wire</th>
+<th>Sheath</th>
+<th>Primary Use</th>
+<th>Strength</th>
 </tr>
 
 <tr>
-<td>Soft CTO</td>
-<td>Command</td>
+<td>Balkin</td>
+<td>Crossover</td>
+<td>Support</td>
 </tr>
 
 <tr>
-<td>Fibrotic CTO</td>
-<td>Halberd</td>
+<td>Ansel</td>
+<td>CTO work</td>
+<td>High support</td>
 </tr>
 
 <tr>
-<td>Calcified CTO</td>
-<td>Astato XS20</td>
+<td>Destination</td>
+<td>Tibials</td>
+<td>Flexibility</td>
 </tr>
 
 <tr>
-<td>Extreme Calcium</td>
-<td>Astato XS40 / Winn</td>
+<td>Flexor</td>
+<td>Long interventions</td>
+<td>Trackability</td>
 </tr>
 
 </table>
 
-<img src="images/cto_wires.jpg">
+<p>
+
+The choice of sheath should always be made before selecting wires and catheters because support requirements determine procedural strategy.
+
+</p>
 
 </div>
 
@@ -259,53 +311,463 @@ Useful when antegrade crossing fails.
 
 <section>
 
-<h2>4. Support Catheters</h2>
-
-<div class="grid">
+<h2>Chapter 3: Guidewire Science and Engineering</h2>
 
 <div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Guidewire.jpg">
+
+<p>
+
+Guidewires are the most important tools in peripheral intervention.
+
+A guidewire is not simply a metal wire.
+
+It is a highly engineered device designed to balance:
+
+</p>
+
+<ul>
+
+<li>Trackability</li>
+<li>Torqueability</li>
+<li>Pushability</li>
+<li>Support</li>
+<li>Penetration force</li>
+<li>Safety</li>
+</ul>
+
+<p>
+
+Understanding wire physics allows the operator to predict behavior during lesion crossing.
+
+</p>
+
+<h3>Core Construction</h3>
+
+<p>
+
+Most guidewires consist of:
+
+</p>
+
+<ul>
+
+<li>Core wire</li>
+<li>Spring coil</li>
+<li>Polymer jacket</li>
+<li>Hydrophilic coating</li>
+</ul>
+
+<p>
+
+Different combinations of these elements create dramatically different clinical behavior.
+
+</p>
+
+<h3>Trackability</h3>
+
+<p>
+
+Trackability refers to the ability of the wire to follow vessel curves.
+
+A highly trackable wire easily navigates tortuous tibial arteries.
+
+Hydrophilic coatings improve trackability by reducing friction.
+
+</p>
+
+<h3>Torqueability</h3>
+
+<p>
+
+Torqueability describes how effectively rotational movement applied proximally is transmitted to the distal tip.
+
+Good torque response is essential during CTO interventions.
+
+</p>
+
+<h3>Pushability</h3>
+
+<p>
+
+Pushability determines how efficiently forward force is transmitted.
+
+Calcified lesions require greater pushability.
+
+</p>
+
+<h3>Support</h3>
+
+<p>
+
+Support becomes important after crossing.
+
+A wire that crosses easily may not provide sufficient support for device delivery.
+
+This explains why operators often exchange wires after successful lesion crossing.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Chapter 4: Crossing Wires</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Guidewire_manipulation.jpg">
+
+<p>
+
+Crossing wires are designed primarily for navigation rather than support.
+
+Their goal is to safely find a path through the lesion.
+
+The majority of peripheral interventions begin with a crossing wire.
+
+</p>
+
+<h3>Fielder FC</h3>
+
+<p>
+
+The Fielder FC is among the most widely used peripheral crossing wires.
+
+Its popularity derives from its exceptional trackability and atraumatic tip design.
+
+The hydrophilic coating reduces friction and facilitates passage through tight stenoses.
+
+The wire is particularly useful in:
+
+</p>
+
+<ul>
+
+<li>Tibial disease.</li>
+<li>Long stenoses.</li>
+<li>Soft CTOs.</li>
+</ul>
+
+<p>
+
+A common mistake among trainees is escalating to aggressive wires too early.
+
+Experienced operators frequently achieve success with Fielder FC because they allow the wire to find the path of least resistance rather than forcing progression.
+
+</p>
+
+<h3>Command Wire</h3>
+
+<p>
+
+The Command wire functions as a workhorse platform.
+
+Compared with Fielder FC, it offers improved torque response while maintaining excellent flexibility.
+
+Applications include:
+
+</p>
+
+<ul>
+
+<li>Routine femoropopliteal disease.</li>
+<li>Soft CTOs.</li>
+<li>Infrapopliteal interventions.</li>
+</ul>
+
+<p>
+
+Many operators consider the Command wire their default first-line crossing wire.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Chapter 5: CTO Wires and Escalation Strategy</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Angioplasty_guidewire.jpg">
+
+<p>
+
+Chronic total occlusions represent one of the most challenging aspects of peripheral intervention.
+
+The greatest mistake made by inexperienced operators is choosing a highly penetrative wire too early.
+
+Successful CTO intervention requires gradual escalation.
+
+</p>
+
+<div class="highlight">
+
+Soft Wire → Intermediate Wire → CTO Wire → Retrograde Strategy
+
+</div>
+
+<h3>Gladius</h3>
+
+<p>
+
+The Gladius wire is designed for fibrotic CTOs.
+
+It offers greater penetration capability than traditional crossing wires while maintaining reasonable safety.
+
+</p>
+
+<h3>Halberd</h3>
+
+<p>
+
+Halberd occupies an intermediate position between workhorse wires and dedicated CTO wires.
+
+Its superior penetration capability allows traversal of resistant fibrotic caps.
+
+</p>
+
+<h3>Astato XS20</h3>
+
+<p>
+
+The Astato XS20 is a dedicated CTO penetration wire with approximately 20 grams tip load.
+
+It is intended for resistant proximal caps and calcified lesions.
+
+Unlike crossing wires, the Astato should be viewed as a penetration device.
+
+The goal is not navigation.
+
+The goal is controlled cap penetration.
+
+</p>
+
+<h3>Astato XS40</h3>
+
+<p>
+
+The Astato XS40 provides even greater penetration capability.
+
+Its use requires significant experience because the risk of vessel perforation increases substantially.
+
+The operator must continuously assess wire position using orthogonal fluoroscopic projections.
+
+</p>
+
+<h3>Winn Series</h3>
+
+<p>
+
+The Winn family represents some of the most aggressive CTO wires available.
+
+Examples include:
+
+</p>
+
+<ul>
+
+<li>Winn 40</li>
+<li>Winn 80</li>
+<li>Winn 200T</li>
+</ul>
+
+<p>
+
+These wires are reserved for heavily calcified chronic total occlusions.
+
+Because of their penetration power, they should never be used without adequate support catheter systems.
+
+</p>
+
+<h3>The Golden Rule of CTO Intervention</h3>
+
+<p>
+
+After successful crossing with an aggressive CTO wire:
+
+</p>
+
+<div class="highlight">
+
+Exchange the CTO wire for a workhorse wire before angioplasty.
+
+</div>
+
+<p>
+
+This principle reduces perforation risk and improves device delivery.
+
+Failure to exchange wires is a common cause of procedural complications.
+
+</p>
+
+<p>
+
+The art of CTO intervention lies not in selecting the strongest wire but in selecting the least aggressive wire capable of accomplishing the task.
+
+This philosophy distinguishes experienced interventionists from beginners.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Chapter 6: Support Catheters and Microcatheters</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Angiography_catheter.jpg/1280px-Angiography_catheter.jpg">
+
+<p>
+
+Many trainees believe guidewires determine procedural success.
+
+In reality, support catheters frequently determine whether a lesion can be crossed.
+
+A guidewire can only generate force if that force is transmitted efficiently.
+
+Without support, guidewire advancement often results in prolapse, buckling, or loss of position.
+
+Support catheters solve this problem.
+
+</p>
+
+<h3>Functions of Support Catheters</h3>
+
+<ul>
+
+<li>Improve pushability.</li>
+<li>Improve torque transmission.</li>
+<li>Facilitate wire exchange.</li>
+<li>Permit selective vessel catheterization.</li>
+<li>Improve CTO crossing success.</li>
+
+</ul>
+
+<p>
+
+Support catheters essentially act as force amplifiers.
+
+They allow the operator to convert small hand movements into meaningful distal wire movement.
+
+</p>
 
 <h3>CXI Support Catheter</h3>
 
 <p>
-Improves support, pushability and wire exchange.
+
+The CXI catheter is one of the most widely used support catheters in peripheral intervention.
+
+The device provides excellent support while maintaining flexibility.
+
+Common lengths include:
+
 </p>
 
-<img src="images/cxi.jpg">
+<ul>
+
+<li>65 cm</li>
+<li>90 cm</li>
+<li>135 cm</li>
+<li>150 cm</li>
+
+</ul>
+
+<p>
+
+Applications include:
+
+</p>
+
+<ul>
+
+<li>BTK interventions.</li>
+<li>CTO crossing.</li>
+<li>Wire exchange.</li>
+<li>Selective tibial catheterization.</li>
+
+</ul>
+
+<p>
+
+A common teaching pearl is:
+
+</p>
+
+<div class="highlight">
+
+If the wire keeps prolapsing, add support before escalating wire stiffness.
 
 </div>
 
-<div class="card">
+<h3>Quick-Cross Catheter</h3>
+
+<p>
+
+Quick-Cross catheters provide robust support while maintaining a relatively low profile.
+
+Advantages include:
+
+</p>
+
+<ul>
+
+<li>Excellent wire exchange capability.</li>
+<li>Good pushability.</li>
+<li>Broad compatibility.</li>
+
+</ul>
+
+<h3>Navicross Catheter</h3>
+
+<p>
+
+The Navicross catheter is designed to facilitate vessel selection.
+
+The braided shaft improves torque transmission.
+
+The catheter is particularly useful in tortuous anatomy and tibial interventions.
+
+</p>
 
 <h3>Progreat Microcatheter</h3>
 
 <p>
-Excellent for BTK interventions and subintimal tracking.
+
+The Progreat occupies a unique position between support catheter and microcatheter.
+
+Its hydrophilic coating provides exceptional trackability.
+
+The catheter is particularly valuable in:
+
 </p>
-
-<img src="images/progreat.jpg">
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<h2>5. Balloon Angioplasty</h2>
-
-<div class="card">
-
-<h3>Balloon Sizing Principles</h3>
 
 <ul>
-<li>Diameter = vessel diameter</li>
-<li>Length = lesion + margin</li>
-<li>Predilation before stenting</li>
+
+<li>Tibial interventions.</li>
+<li>Distal vessel selection.</li>
+<li>Subintimal tracking.</li>
+<li>Retrograde procedures.</li>
+
 </ul>
 
-<img src="images/pta_balloon.jpg">
+<p>
+
+One important feature of the Progreat system is the ability to intentionally form loops.
+
+Loop formation reduces the risk of perforation and facilitates controlled subintimal progression.
+
+</p>
 
 </div>
 
@@ -313,182 +775,236 @@ Excellent for BTK interventions and subintimal tracking.
 
 <section>
 
-<h2>6. Special Balloons</h2>
-
-<div class="grid">
+<h2>Chapter 7: CTO Crossing Algorithms</h2>
 
 <div class="card">
 
-<h3>Drug Coated Balloon</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Peripheral_arterial_disease.jpg/1280px-Peripheral_arterial_disease.jpg">
 
 <p>
-Paclitaxel or Sirolimus coated balloons.
+
+CTO intervention should never be random.
+
+Successful operators follow a structured escalation strategy.
+
+The objective is always to achieve lesion crossing using the least aggressive hardware necessary.
+
 </p>
 
-<img src="images/dcb.jpg">
-
-</div>
-
-<div class="card">
-
-<h3>Chocolate Balloon</h3>
-
-<p>
-Controlled expansion and reduced dissection.
-</p>
-
-<img src="images/chocolate_balloon.jpg">
-
-</div>
-
-<div class="card">
-
-<h3>Cutting Balloon</h3>
-
-<p>
-Ideal for resistant fibrotic lesions.
-</p>
-
-<img src="images/cutting_balloon.jpg">
-
-</div>
-
-<div class="card">
-
-<h3>Shockwave IVL</h3>
-
-<p>
-Fractures calcium before angioplasty.
-</p>
-
-<img src="images/ivl.jpg">
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<h2>7. Peripheral Stents</h2>
-
-<div class="card">
-
-<h3>Self Expanding Nitinol Stents</h3>
-
-<ul>
-<li>Zilver Flex</li>
-<li>Absolute Pro</li>
-<li>Misago</li>
-<li>Innova</li>
-</ul>
-
-<img src="images/nitinol_stent.jpg">
-
-</div>
-
-<div class="card">
-
-<h3>Supera Stent</h3>
+<h3>Soft CTO Algorithm</h3>
 
 <div class="highlight">
 
-The most important peripheral stent for examination purposes.
+Fielder FC → Command → Support Catheter → Balloon
 
 </div>
-
-<ul>
-
-<li>Interwoven nitinol design</li>
-
-<li>Exceptional flexibility</li>
-
-<li>Excellent crush resistance</li>
-
-<li>Very low fracture rate</li>
-
-<li>Ideal for distal SFA and popliteal artery</li>
-
-</ul>
-
-<img src="images/supera.jpg">
-
-</div>
-
-</section>
-
-<section>
-
-<h2>8. Covered Stents (Stent Grafts)</h2>
-
-<div class="card">
-
-<ul>
-
-<li>Viabahn</li>
-
-<li>Fluency</li>
-
-<li>Covera</li>
-
-<li>BeGraft</li>
-
-</ul>
 
 <p>
 
-Used for:
+Soft occlusions frequently contain microchannels.
+
+Hydrophilic workhorse wires can often exploit these channels without requiring aggressive penetration.
+
+Patience is frequently more important than force.
+
+</p>
+
+<h3>Fibrotic CTO Algorithm</h3>
+
+<div class="highlight">
+
+Command → Gladius → Halberd → CXI Support
+
+</div>
+
+<p>
+
+Fibrotic lesions resist wire passage because of dense collagen deposition.
+
+These lesions require increased penetration capability while maintaining reasonable safety.
+
+</p>
+
+<h3>Calcified CTO Algorithm</h3>
+
+<div class="highlight">
+
+Command → Halberd → Astato XS20 → Astato XS40
+
+</div>
+
+<p>
+
+Calcified lesions often possess a heavily resistant proximal cap.
+
+The challenge is not lesion length but cap penetration.
+
+Failure to penetrate the proximal cap guarantees procedural failure.
+
+</p>
+
+<h3>Tibial CTO Algorithm</h3>
+
+<p>
+
+Below-the-knee disease presents unique challenges.
+
+The vessels are:
 
 </p>
 
 <ul>
 
-<li>Perforation</li>
-
-<li>Pseudoaneurysm</li>
-
-<li>Long SFA lesions</li>
-
-<li>ISR</li>
+<li>Small.</li>
+<li>Tortuous.</li>
+<li>Frequently calcified.</li>
 
 </ul>
 
-<img src="images/covered_stent.jpg">
-
-</div>
-
-</section>
-
-<section>
-
-<h2>9. Atherectomy & Embolic Protection</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>TurboHawk Atherectomy</h3>
-
 <p>
-Plaque excision device.
+
+A typical tibial CTO strategy involves:
+
 </p>
 
-<img src="images/turbohawk.jpg">
+<ul>
 
-</div>
+<li>Fielder FC.</li>
+<li>Command wire.</li>
+<li>Progreat support.</li>
+<li>Gladius escalation.</li>
+<li>Retrograde access if required.</li>
 
-<div class="card">
+</ul>
 
-<h3>Spider Filter</h3>
+<h3>Retrograde Strategy</h3>
 
 <p>
-Captures distal embolic debris.
+
+Retrograde access has revolutionized peripheral CTO treatment.
+
+When antegrade crossing fails, retrograde tibial or pedal access frequently succeeds.
+
+The distal cap is often softer than the proximal cap.
+
+This explains why retrograde approaches can dramatically increase procedural success rates.
+
 </p>
 
-<img src="images/spider_filter.jpg">
+</div>
+
+</section>
+
+<section>
+
+<h2>Chapter 8: Balloon Technology</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Angioplasty_balloon.jpg/1280px-Angioplasty_balloon.jpg">
+
+<p>
+
+Balloon angioplasty remains the foundation of peripheral intervention.
+
+Although numerous advanced technologies exist, almost every procedure ultimately involves balloon inflation.
+
+Understanding balloon mechanics is therefore essential.
+
+</p>
+
+<h3>Objectives of Balloon Angioplasty</h3>
+
+<ul>
+
+<li>Plaque compression.</li>
+<li>Plaque fracture.</li>
+<li>Calcium disruption.</li>
+<li>Lumen expansion.</li>
+
+</ul>
+
+<h3>Balloon Sizing Principles</h3>
+
+<p>
+
+Oversizing increases the risk of:
+
+</p>
+
+<ul>
+
+<li>Dissection.</li>
+<li>Perforation.</li>
+<li>Elastic recoil.</li>
+
+</ul>
+
+<p>
+
+Undersizing results in inadequate luminal gain.
+
+The general rule is:
+
+</p>
+
+<div class="highlight">
+
+Balloon Diameter ≈ Reference Vessel Diameter
 
 </div>
+
+<h3>Compliant Balloons</h3>
+
+<p>
+
+Compliant balloons expand as inflation pressure increases.
+
+Advantages include flexibility and conformability.
+
+Disadvantages include unpredictable diameter expansion.
+
+</p>
+
+<h3>Semi-Compliant Balloons</h3>
+
+<p>
+
+Semi-compliant balloons represent the most commonly used balloon type.
+
+They provide a balance between flexibility and predictable expansion.
+
+</p>
+
+<h3>Non-Compliant Balloons</h3>
+
+<p>
+
+Non-compliant balloons demonstrate minimal diameter change with increasing pressure.
+
+These devices are particularly useful in:
+
+</p>
+
+<ul>
+
+<li>Fibrotic lesions.</li>
+<li>In-stent restenosis.</li>
+<li>Resistant stenoses.</li>
+
+</ul>
+
+<h3>High-Pressure Balloons</h3>
+
+<p>
+
+Certain lesions refuse to expand despite standard angioplasty.
+
+High-pressure balloons can generate extremely high inflation pressures.
+
+These devices are frequently used in heavily calcified lesions.
+
+</p>
 
 </div>
 
@@ -496,41 +1012,96 @@ Captures distal embolic debris.
 
 <section>
 
-<h2>10. Essential Cath Lab Accessories</h2>
-
-<div class="grid">
+<h2>Chapter 9: Drug-Coated Balloons</h2>
 
 <div class="card">
 
-<h3>Inflation Device</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coronary_angioplasty.jpg/1280px-Coronary_angioplasty.jpg">
 
-<img src="images/indeflator.jpg">
+<p>
 
-</div>
+Drug-coated balloons represent one of the most important advances in peripheral intervention.
 
-<div class="card">
+Traditional angioplasty addresses the mechanical component of stenosis but fails to address the biological response to vessel injury.
 
-<h3>Y Connector</h3>
+Drug-coated balloons attempt to solve this problem.
 
-<img src="images/y_connector.jpg">
+</p>
 
-</div>
+<h3>Mechanism of Restenosis</h3>
 
-<div class="card">
+<p>
 
-<h3>Torque Device</h3>
+After angioplasty:
 
-<img src="images/torquer.jpg">
+</p>
 
-</div>
+<ul>
 
-<div class="card">
+<li>Endothelial injury occurs.</li>
+<li>Smooth muscle cells proliferate.</li>
+<li>Neointimal hyperplasia develops.</li>
 
-<h3>Pressure Bag</h3>
+</ul>
 
-<img src="images/pressure_bag.jpg">
+<p>
 
-</div>
+This process ultimately causes restenosis.
+
+Drug-coated balloons deliver antiproliferative medication directly into the vessel wall.
+
+</p>
+
+<h3>Paclitaxel</h3>
+
+<p>
+
+Paclitaxel stabilizes microtubules and inhibits cellular proliferation.
+
+Advantages include:
+
+</p>
+
+<ul>
+
+<li>Rapid uptake.</li>
+<li>Prolonged tissue retention.</li>
+<li>Potent antiproliferative effect.</li>
+
+</ul>
+
+<h3>Sirolimus</h3>
+
+<p>
+
+Sirolimus inhibits the mTOR pathway.
+
+The drug reduces smooth muscle proliferation while preserving endothelial healing.
+
+Many investigators believe sirolimus may represent the future of drug-coated technology.
+
+</p>
+
+<h3>Clinical Applications</h3>
+
+<ul>
+
+<li>SFA disease.</li>
+<li>Popliteal disease.</li>
+<li>In-stent restenosis.</li>
+<li>Selected tibial interventions.</li>
+
+</ul>
+
+<h3>Advantages</h3>
+
+<ul>
+
+<li>No permanent implant.</li>
+<li>Reduced restenosis.</li>
+<li>Reduced target lesion revascularization.</li>
+
+</ul>
 
 </div>
 
@@ -538,45 +1109,1625 @@ Captures distal embolic debris.
 
 <section>
 
-<h2>11. Practical CTO Algorithm</h2>
+<h2>Chapter 10: Calcium Modification Devices</h2>
 
 <div class="card">
 
-<img src="images/algorithm.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Atherosclerosis.jpg/1280px-Atherosclerosis.jpg">
+
+<p>
+
+Calcium is one of the greatest challenges in peripheral intervention.
+
+The presence of severe calcium increases:
+
+</p>
+
+<ul>
+
+<li>Crossing difficulty.</li>
+<li>Balloon resistance.</li>
+<li>Stent under-expansion.</li>
+<li>Restenosis.</li>
+
+</ul>
+
+<p>
+
+Modern peripheral intervention increasingly emphasizes vessel preparation before definitive treatment.
+
+</p>
+
+<h3>Intravascular Lithotripsy (IVL)</h3>
+
+<p>
+
+IVL uses sonic pressure waves to fracture calcium.
+
+The technology is conceptually similar to extracorporeal shockwave lithotripsy used in urology.
+
+The balloon is inflated at low pressure.
+
+Energy pulses propagate through fluid and selectively fracture calcium.
+
+</p>
+
+<h3>Advantages of IVL</h3>
+
+<ul>
+
+<li>Minimal vessel trauma.</li>
+<li>Low dissection rates.</li>
+<li>Improved compliance.</li>
+<li>Excellent safety profile.</li>
+
+</ul>
+
+<h3>Directional Atherectomy</h3>
+
+<p>
+
+Directional atherectomy physically removes plaque.
+
+Unlike angioplasty, which compresses plaque, atherectomy debulks the lesion.
+
+</p>
+
+<h3>TurboHawk System</h3>
+
+<p>
+
+TurboHawk utilizes a rotating cutter housed within a directional catheter.
+
+Plaque is shaved and collected within the catheter nosecone.
+
+Advantages include:
+
+</p>
+
+<ul>
+
+<li>Plaque removal.</li>
+<li>Reduced need for stenting.</li>
+<li>Improved vessel preparation.</li>
+
+</ul>
+
+<h3>Orbital Atherectomy</h3>
+
+<p>
+
+Orbital atherectomy utilizes an eccentrically mounted crown.
+
+Rotation creates a sanding effect that preferentially modifies calcified tissue.
+
+</p>
+
+<h3>Rotational Atherectomy</h3>
+
+<p>
+
+Rotational systems employ high-speed rotating burrs.
+
+These devices fragment plaque into microscopic particles.
+
+</p>
+
+<h3>Future Direction</h3>
+
+<p>
+
+The future of peripheral intervention increasingly focuses on:
+
+</p>
+
+<div class="highlight">
+
+Lesion Preparation → Drug Delivery → Implant Avoidance
+
+</div>
+
+<p>
+
+This strategy seeks to maximize luminal gain while minimizing the need for permanent implants.
+
+</p>
+
+</div>
+
+</section>
+<section>
+
+<h2>Chapter 11: Atherectomy Systems</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Atherosclerosis_illustration.jpg/1280px-Atherosclerosis_illustration.jpg">
+
+<p>
+
+Atherectomy refers to endovascular plaque removal. Unlike conventional balloon angioplasty, which compresses plaque against the vessel wall, atherectomy physically removes or modifies plaque burden.
+
+The concept is particularly attractive in heavily calcified lesions where balloon angioplasty alone often produces inadequate lumen gain and significant dissections.
+
+The rationale behind atherectomy is simple:
+
+</p>
+
+<div class="highlight">
+
+Remove plaque first → Prepare vessel → Deliver definitive therapy
+
+</div>
+
+<h3>Why Atherectomy?</h3>
+
+<ul>
+<li>Reduces plaque burden.</li>
+<li>Improves vessel compliance.</li>
+<li>Facilitates drug delivery.</li>
+<li>Reduces need for bailout stenting.</li>
+<li>Improves luminal gain.</li>
+</ul>
+
+<p>
+
+The modern concept of vessel preparation frequently combines atherectomy with drug-coated balloons.
+
+</p>
+
+<h3>Directional Atherectomy</h3>
+
+<p>
+
+Directional atherectomy devices physically shave plaque from one side of the vessel wall.
+
+The operator can orient the cutter toward the target plaque.
+
+This provides excellent plaque debulking while preserving uninvolved vessel segments.
+
+</p>
+
+<h3>TurboHawk</h3>
+
+<p>
+
+TurboHawk is one of the best-known directional atherectomy devices.
+
+The system consists of:
+
+</p>
+
+<ul>
+<li>Directional cutter.</li>
+<li>Collection chamber (nosecone).</li>
+<li>Rotational drive mechanism.</li>
+</ul>
+
+<p>
+
+During operation, plaque is shaved and stored within the nosecone.
+
+Multiple passes are usually required.
+
+</p>
+
+<h3>Advantages</h3>
+
+<ul>
+<li>Excellent plaque removal.</li>
+<li>Useful in eccentric lesions.</li>
+<li>Good vessel preparation.</li>
+</ul>
+
+<h3>Disadvantages</h3>
+
+<ul>
+<li>Distal embolization.</li>
+<li>Longer procedure time.</li>
+<li>Need for embolic protection.</li>
+</ul>
+
+<h3>Orbital Atherectomy</h3>
+
+<p>
+
+Orbital atherectomy employs an eccentrically mounted crown rotating at high speed.
+
+As rotational speed increases, the effective treatment diameter enlarges.
+
+The crown preferentially sands calcium while preserving softer tissue.
+
+</p>
+
+<h3>Advantages</h3>
+
+<ul>
+<li>Excellent calcium modification.</li>
+<li>Useful in long calcified lesions.</li>
+<li>Improves vessel compliance.</li>
+</ul>
+
+<h3>Rotational Atherectomy</h3>
+
+<p>
+
+Rotational systems utilize a high-speed rotating burr.
+
+These devices fragment plaque into microscopic particles.
+
+The concept resembles coronary rotational atherectomy but is adapted for peripheral anatomy.
+
+</p>
+
+<h3>Clinical Applications</h3>
+
+<ul>
+<li>Calcified SFA disease.</li>
+<li>Calcified CFA disease.</li>
+<li>In-stent restenosis.</li>
+<li>Popliteal disease.</li>
+</ul>
+
+<p>
+
+Atherectomy should not be viewed as a standalone treatment.
+
+The greatest benefits occur when combined with contemporary vessel preparation strategies and drug delivery technologies.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 12: Peripheral Stents</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Stent_diagram.svg/1280px-Stent_diagram.svg.png">
+
+<p>
+
+Despite advances in vessel preparation and drug-coated technology, stents remain a cornerstone of peripheral intervention.
+
+A stent acts as a permanent scaffold preventing elastic recoil and maintaining luminal patency.
+
+However, not all peripheral stents are the same.
+
+The biomechanical environment of the superficial femoral and popliteal arteries is fundamentally different from coronary circulation.
+
+Peripheral stents must tolerate:
+
+</p>
+
+<ul>
+<li>Compression.</li>
+<li>Torsion.</li>
+<li>Elongation.</li>
+<li>Flexion.</li>
+<li>External trauma.</li>
+</ul>
+
+<h3>Balloon Expandable Stents</h3>
+
+<p>
+
+These stents are mounted on angioplasty balloons and expand when the balloon inflates.
+
+Advantages:
+
+</p>
+
+<ul>
+<li>Precise deployment.</li>
+<li>High radial force.</li>
+<li>Excellent ostial accuracy.</li>
+</ul>
+
+<p>
+
+Typical indications include:
+
+</p>
+
+<ul>
+<li>Iliac lesions.</li>
+<li>Renal artery stenosis.</li>
+<li>Ostial disease.</li>
+</ul>
+
+<h3>Self Expanding Stents</h3>
+
+<p>
+
+Self-expanding nitinol stents represent the dominant stent platform in peripheral intervention.
+
+Nitinol possesses shape-memory and superelastic properties.
+
+After deployment, the stent gradually expands to its predetermined diameter.
+
+</p>
+
+<h3>Advantages</h3>
+
+<ul>
+<li>Flexibility.</li>
+<li>Fatigue resistance.</li>
+<li>Fracture resistance.</li>
+<li>Excellent conformability.</li>
+</ul>
+
+<h3>Examples</h3>
+
+<ul>
+<li>Zilver Flex.</li>
+<li>Absolute Pro.</li>
+<li>Misago.</li>
+<li>Innova.</li>
+</ul>
+
+<h3>Open Cell vs Closed Cell</h3>
+
+<p>
+
+Open-cell stents provide greater flexibility.
+
+Closed-cell stents provide superior scaffolding.
+
+The choice depends upon lesion morphology and vessel biomechanics.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 13: Supera Stent Masterclass</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Nitinol_stent.jpg/1280px-Nitinol_stent.jpg">
+
+<p>
+
+Among all peripheral stents, none has generated greater interest than the Supera stent.
+
+For fellowship examinations, board examinations and viva discussions, Supera deserves special attention.
+
+</p>
+
+<h3>Why Is Supera Different?</h3>
+
+<p>
+
+Most peripheral nitinol stents are laser-cut tubes.
+
+Supera is fundamentally different.
+
+It is an interwoven nitinol stent.
+
+Rather than being cut from a tube, multiple nitinol strands are braided together.
+
+The resulting architecture resembles a Chinese finger trap.
+
+This design provides extraordinary flexibility while maintaining high radial strength.
+
+</p>
+
+<h3>Biomechanical Advantages</h3>
+
+<ul>
+<li>Compression resistance.</li>
+<li>Torsional resistance.</li>
+<li>Flexion resistance.</li>
+<li>Crush resistance.</li>
+<li>Low fracture rates.</li>
+</ul>
+
+<h3>Why Popliteal Artery Is Challenging</h3>
+
+<p>
+
+The popliteal artery undergoes repeated:
+
+</p>
+
+<ul>
+<li>Knee flexion.</li>
+<li>Compression.</li>
+<li>Rotation.</li>
+<li>Longitudinal stretching.</li>
+</ul>
+
+<p>
+
+Traditional stents frequently fail in this environment.
+
+Supera was specifically designed to tolerate these forces.
+
+</p>
+
+<h3>Ideal Indications</h3>
+
+<ul>
+<li>Distal SFA.</li>
+<li>Popliteal artery.</li>
+<li>Adductor canal lesions.</li>
+<li>Mechanically stressed vessels.</li>
+</ul>
+
+<h3>Deployment Principles</h3>
+
+<p>
+
+Deployment technique is critical.
+
+Unlike conventional nitinol stents, Supera performance depends heavily upon implantation technique.
+
+Improper deployment may lead to:
+
+</p>
+
+<ul>
+<li>Elongation.</li>
+<li>Foreshortening.</li>
+<li>Reduced radial force.</li>
+<li>Inferior long-term patency.</li>
+</ul>
+
+<h3>Exam Pearl</h3>
+
+<div class="highlight">
+
+Most viva examiners asking for the best stent in the popliteal artery expect the answer:
+"Supera Interwoven Nitinol Stent."
+
+</div>
+
+<h3>Clinical Evidence</h3>
+
+<p>
+
+Multiple studies have demonstrated excellent primary patency and exceptionally low fracture rates.
+
+Long-term outcomes remain among the best reported for femoropopliteal interventions.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 14: Covered Stents and Stent Grafts</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Blood_vessel_cross_section.svg/1280px-Blood_vessel_cross_section.svg.png">
+
+<p>
+
+Covered stents combine the structural properties of a stent with the sealing capability of a graft.
+
+These devices effectively create an endovascular bypass.
+
+</p>
+
+<h3>Construction</h3>
+
+<p>
+
+A covered stent consists of:
+
+</p>
+
+<ul>
+<li>Metallic scaffold.</li>
+<li>PTFE or similar covering.</li>
+</ul>
+
+<h3>Advantages</h3>
+
+<ul>
+<li>Seals perforations.</li>
+<li>Excludes aneurysms.</li>
+<li>Reduces plaque prolapse.</li>
+<li>Provides immediate lumen restoration.</li>
+</ul>
+
+<h3>Viabahn</h3>
+
+<p>
+
+Viabahn is perhaps the most widely recognized self-expanding covered stent.
+
+Applications include:
+
+</p>
+
+<ul>
+<li>Long SFA lesions.</li>
+<li>Pseudoaneurysms.</li>
+<li>Traumatic injuries.</li>
+<li>Popliteal aneurysms.</li>
+</ul>
+
+<h3>VBX</h3>
+
+<p>
+
+VBX is a balloon-expandable covered stent.
+
+Advantages include:
+
+</p>
+
+<ul>
+<li>Precise deployment.</li>
+<li>High radial force.</li>
+<li>Excellent ostial accuracy.</li>
+</ul>
+
+<h3>Emergency Indications</h3>
+
+<ul>
+<li>Arterial rupture.</li>
+<li>Perforation.</li>
+<li>Arteriovenous fistula.</li>
+<li>Pseudoaneurysm.</li>
+</ul>
+
+<h3>Limitations</h3>
+
+<ul>
+<li>Side branch occlusion.</li>
+<li>Thrombosis risk.</li>
+<li>Need for prolonged antiplatelet therapy.</li>
+</ul>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 15: Embolic Protection Devices</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blood_clot.jpg/1280px-Blood_clot.jpg">
+
+<p>
+
+Distal embolization remains one of the most feared complications of peripheral intervention.
+
+Plaque, thrombus and calcium fragments may travel distally and compromise runoff vessels.
+
+Embolic protection devices were developed to reduce this risk.
+
+</p>
+
+<h3>SpiderFX Filter</h3>
+
+<p>
+
+SpiderFX is the most commonly used distal protection system in peripheral intervention.
+
+The device consists of:
+
+</p>
+
+<ul>
+<li>Delivery wire.</li>
+<li>Nitinol filter basket.</li>
+<li>Retrieval catheter.</li>
+</ul>
+
+<h3>Mechanism</h3>
+
+<p>
+
+The filter is deployed distal to the lesion.
+
+During intervention, debris is captured within the basket.
+
+At the end of the procedure the filter is retrieved along with trapped embolic material.
+
+</p>
+
+<h3>When Should Protection Be Used?</h3>
+
+<ul>
+<li>Atherectomy.</li>
+<li>Degenerated vein grafts.</li>
+<li>Large thrombus burden.</li>
+<li>Heavily calcified lesions.</li>
+</ul>
+
+<h3>Limitations</h3>
+
+<ul>
+<li>Cannot capture microscopic particles.</li>
+<li>Requires adequate landing zone.</li>
+<li>May become overloaded with debris.</li>
+</ul>
+
+<h3>Future Trends</h3>
+
+<p>
+
+The future likely involves integration of embolic protection with vessel preparation strategies.
+
+As atherectomy and calcium modification continue to evolve, embolic protection may become increasingly important in complex peripheral interventions.
+
+</p>
+
+<div class="highlight">
+
+Atherectomy without considering embolic protection is one of the most common mistakes made by beginners.
+
+</div>
+
+</div>
+
+</section>
+<section>
+
+<h2>Chapter 16: Ancillary Devices – The Unsung Heroes of Peripheral Intervention</h2>
+
+<div class="card">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Medical_devices.jpg/1280px-Medical_devices.jpg">
+
+<p>
+
+While guidewires, balloons and stents receive most of the attention, ancillary devices frequently determine procedural efficiency and safety.
+
+Experienced operators appreciate that these seemingly minor devices can transform a difficult intervention into a smooth procedure.
+
+</p>
+
+<h3>Torque Devices</h3>
+
+<p>
+
+A torque device attaches to the proximal guidewire and amplifies rotational control.
+
+Applications include:
+
+</p>
+
+<ul>
+<li>Selective vessel catheterization.</li>
+<li>CTO crossing.</li>
+<li>Tibial interventions.</li>
+<li>Microcatheter work.</li>
+</ul>
+
+<p>
+
+The importance of precise torque transmission increases dramatically in tortuous anatomy.
+
+</p>
+
+<h3>Inflation Devices (Indeflators)</h3>
+
+<p>
+
+Inflation devices allow controlled balloon expansion.
+
+Advantages include:
+
+</p>
+
+<ul>
+<li>Accurate pressure monitoring.</li>
+<li>Controlled inflation.</li>
+<li>Controlled deflation.</li>
+<li>High-pressure capability.</li>
+</ul>
+
+<p>
+
+Modern indeflators routinely achieve pressures exceeding 20 atmospheres.
+
+</p>
+
+<h3>Y Connectors</h3>
+
+<p>
+
+Hemostatic Y-connectors provide:
+
+</p>
+
+<ul>
+<li>Hemostasis.</li>
+<li>Contrast injection.</li>
+<li>Guidewire manipulation.</li>
+</ul>
+
+<p>
+
+Without a Y-connector, blood loss and air embolism risk increase significantly.
+
+</p>
+
+<h3>Pressure Bags</h3>
+
+<p>
+
+Continuous heparinized saline flushing is essential.
+
+Pressure bags maintain:
+
+</p>
+
+<ul>
+<li>Catheter patency.</li>
+<li>Sheath patency.</li>
+<li>Thrombus prevention.</li>
+</ul>
+
+<p>
+
+Most laboratories maintain pressure around 300 mmHg.
+
+</p>
+
+<h3>Wire Introducers</h3>
+
+<p>
+
+Wire introducers facilitate insertion of delicate guidewires through hemostatic valves.
+
+This minimizes wire damage and improves procedural efficiency.
+
+</p>
+
+<div class="highlight">
+
+A skilled interventionist treats ancillary devices with the same respect as guidewires and stents.
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 17: Hardware Selection in Real Clinical Scenarios</h2>
+
+<div class="card">
+
+<p>
+
+Hardware selection should never be device-centered.
+
+Instead, it should be lesion-centered.
+
+The lesion determines the hardware.
+
+</p>
+
+<h3>Scenario 1: Focal SFA Stenosis</h3>
+
+<ul>
+<li>Antegrade femoral access.</li>
+<li>6F sheath.</li>
+<li>Command wire.</li>
+<li>PTA balloon.</li>
+<li>DCB.</li>
+</ul>
+
+<p>
+
+Most focal stenoses do not require aggressive hardware.
+
+</p>
+
+<h3>Scenario 2: Long SFA CTO</h3>
+
+<ul>
+<li>Ansel sheath.</li>
+<li>Fielder FC.</li>
+<li>CXI support catheter.</li>
+<li>Halberd.</li>
+<li>Astato XS20 if required.</li>
+<li>Vessel preparation.</li>
+<li>DCB ± stent.</li>
+</ul>
+
+<h3>Scenario 3: Calcified Common Femoral Artery</h3>
+
+<ul>
+<li>IVL.</li>
+<li>Atherectomy.</li>
+<li>DCB.</li>
+</ul>
+
+<p>
+
+Historically these lesions were surgical territory.
+
+Modern calcium-modification technology has expanded endovascular options.
+
+</p>
+
+<h3>Scenario 4: Popliteal Lesion</h3>
+
+<ul>
+<li>Balloon angioplasty.</li>
+<li>DCB.</li>
+<li>Supera if stenting required.</li>
+</ul>
+
+<p>
+
+Popliteal biomechanics strongly influence device choice.
+
+</p>
+
+<h3>Scenario 5: BTK CTO in CLTI</h3>
+
+<ul>
+<li>Antegrade access.</li>
+<li>Progreat.</li>
+<li>Fielder FC.</li>
+<li>Command.</li>
+<li>Gladius.</li>
+<li>Retrograde pedal access if required.</li>
+</ul>
+
+<p>
+
+BTK interventions reward patience and precision more than force.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 18: Hardware-Related Complications and Troubleshooting</h2>
+
+<div class="card">
+
+<p>
+
+Complications are inevitable.
+
+The objective is not to avoid all complications but to recognize and manage them effectively.
+
+</p>
+
+<h3>Guidewire Perforation</h3>
+
+<p>
+
+Causes:
+
+</p>
+
+<ul>
+<li>Aggressive CTO wires.</li>
+<li>Subintimal progression.</li>
+<li>Excessive force.</li>
+</ul>
+
+<h3>Management</h3>
+
+<ul>
+<li>Stop advancement.</li>
+<li>Confirm angiographically.</li>
+<li>Prolonged balloon inflation.</li>
+<li>Covered stent if required.</li>
+</ul>
+
+<h3>Balloon Rupture</h3>
+
+<p>
+
+Typically occurs in heavily calcified lesions.
+
+Management:
+
+</p>
+
+<ul>
+<li>Careful withdrawal.</li>
+<li>Repeat angiography.</li>
+<li>Evaluate for dissection.</li>
+</ul>
+
+<h3>Flow-Limiting Dissection</h3>
+
+<p>
+
+Common after angioplasty.
+
+Management options:
+
+</p>
+
+<ul>
+<li>Prolonged balloon inflation.</li>
+<li>Scoring balloon.</li>
+<li>Bailout stenting.</li>
+</ul>
+
+<h3>Distal Embolization</h3>
+
+<p>
+
+Most commonly associated with:
+
+</p>
+
+<ul>
+<li>Atherectomy.</li>
+<li>Thrombotic lesions.</li>
+<li>Calcified lesions.</li>
+</ul>
+
+<p>
+
+Management:
+
+</p>
+
+<ul>
+<li>Aspiration thrombectomy.</li>
+<li>Catheter-directed thrombolysis.</li>
+<li>Mechanical thrombectomy.</li>
+</ul>
+
+<h3>Stent Underexpansion</h3>
+
+<p>
+
+A major cause of long-term failure.
+
+Usually reflects inadequate lesion preparation.
+
+</p>
+
+<div class="highlight">
+
+The best treatment for stent underexpansion is preventing it through proper vessel preparation.
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 19: Major Trials and Evidence Base</h2>
+
+<div class="card">
+
+<p>
+
+Evidence-based intervention requires understanding the major studies that shaped contemporary practice.
+
+</p>
+
+<h3>IN.PACT SFA Trial</h3>
+
+<p>
+
+One of the landmark DCB studies.
+
+Demonstrated superior patency compared with conventional angioplasty.
+
+Established DCB as a major treatment modality in femoropopliteal disease.
+
+</p>
+
+<h3>LEVANT Trials</h3>
+
+<p>
+
+Evaluated Lutonix drug-coated balloons.
+
+Demonstrated improved patency and reduced repeat intervention.
+
+</p>
+
+<h3>ZILVER PTX Trial</h3>
+
+<p>
+
+One of the most important studies evaluating drug-eluting stents in peripheral arterial disease.
+
+Showed durable long-term benefit.
+
+</p>
+
+<h3>DEFINITIVE AR Trial</h3>
+
+<p>
+
+Examined directional atherectomy combined with drug-coated balloons.
+
+Highlighted the importance of vessel preparation.
+
+</p>
+
+<h3>SUPERA Studies</h3>
+
+<p>
+
+Multiple registries demonstrated:
+
+</p>
+
+<ul>
+<li>High primary patency.</li>
+<li>Low fracture rates.</li>
+<li>Excellent performance in popliteal lesions.</li>
+</ul>
+
+<h3>Shockwave IVL Studies</h3>
+
+<p>
+
+Demonstrated:
+
+</p>
+
+<ul>
+<li>Excellent safety profile.</li>
+<li>Effective calcium modification.</li>
+<li>Low dissection rates.</li>
+</ul>
+
+<h3>Viabahn Studies</h3>
+
+<p>
+
+Established covered stents as an important treatment option for long femoropopliteal lesions.
+
+</p>
+
+<h3>Modern Trend</h3>
+
+<div class="highlight">
+
+Vessel Preparation → Drug Delivery → Implant Avoidance
+
+</div>
+
+<p>
+
+This concept increasingly defines contemporary peripheral intervention.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 20: Fellowship, DM and INI-SS Examination Pearls</h2>
+
+<div class="card">
+
+<h3>Common Viva Questions</h3>
+
+<p><strong>Q. Why is Supera preferred in the popliteal artery?</strong></p>
+
+<p>
+
+Because its interwoven nitinol design provides superior resistance to flexion, torsion, compression and elongation.
+
+</p>
+
+<p><strong>Q. Difference between Command and Astato?</strong></p>
+
+<p>
+
+Command is a workhorse crossing wire.
+
+Astato is a dedicated penetration CTO wire.
+
+</p>
+
+<p><strong>Q. Why use a support catheter?</strong></p>
+
+<p>
+
+To improve support, torque transmission and wire exchange capability.
+
+</p>
+
+<p><strong>Q. Best treatment for severe concentric calcium?</strong></p>
+
+<p>
+
+IVL is increasingly preferred because it modifies calcium while minimizing vessel trauma.
+
+</p>
+
+<p><strong>Q. When should embolic protection be considered?</strong></p>
+
+<p>
+
+Atherectomy, thrombotic lesions, degenerated grafts and high embolic-risk interventions.
+
+</p>
+
+<p><strong>Q. Major causes of peripheral stent failure?</strong></p>
+
+<ul>
+<li>Inadequate vessel preparation.</li>
+<li>Residual calcium.</li>
+<li>Underexpansion.</li>
+<li>Poor runoff.</li>
+<li>Mechanical stress.</li>
+</ul>
+
+<p><strong>Q. What determines success in CTO intervention?</strong></p>
+
+<div class="highlight">
+
+Support is usually more important than wire aggressiveness.
+
+</div>
+
+<h3>Golden Rules</h3>
+
+<ul>
+<li>Never escalate wires unnecessarily.</li>
+<li>Always optimize support.</li>
+<li>Prepare the vessel before scaffolding.</li>
+<li>Avoid stenting when equivalent results can be achieved without a permanent implant.</li>
+<li>Respect vessel biomechanics.</li>
+</ul>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>References and Further Reading</h2>
+
+<div class="card">
 
 <ol>
 
-<li>Fielder FC</li>
+<li>Rutherford's Vascular Surgery and Endovascular Therapy.</li>
 
-<li>Command ES</li>
+<li>CRIT (Cardiovascular Research Technologies) Peripheral Intervention Manuals.</li>
 
-<li>Halberd</li>
+<li>Society of Interventional Radiology Practice Guidelines.</li>
 
-<li>Astato XS20</li>
+<li>Global Vascular Guidelines on Chronic Limb-Threatening Ischemia.</li>
 
-<li>Astato XS40</li>
+<li>TASC II Guidelines.</li>
 
-<li>Support Catheter</li>
+<li>IN.PACT SFA Trial Publications.</li>
 
-<li>Balloon Preparation</li>
+<li>LEVANT Trial Publications.</li>
 
-<li>DCB or Stent</li>
+<li>ZILVER PTX Trial Publications.</li>
+
+<li>DEFINITIVE AR Trial Publications.</li>
+
+<li>Shockwave IVL Clinical Studies.</li>
+
+<li>Viabahn Endoprosthesis Studies.</li>
+
+<li>Supera Interwoven Nitinol Stent Registries.</li>
+
+<li>EuroIntervention Peripheral Arterial Disease Reviews.</li>
+
+<li>JVIR Peripheral Arterial Intervention Articles.</li>
+
+<li>Seminars in Interventional Radiology – Peripheral Arterial Disease Series.</li>
 
 </ol>
+
+<p>
+
+Endovascular intervention continues to evolve rapidly. Operators should focus not only on individual devices but on understanding the biomechanical principles that determine device performance. Mastery of hardware selection, lesion preparation and procedural strategy remains the foundation of successful peripheral intervention.
+
+</p>
+
+</div>
+
+</section>
+<section>
+
+<h2>Chapter 21: Quick Device Comparison Tables</h2>
+
+<div class="card">
+
+<h3>Guidewire Selection</h3>
+
+<table>
+
+<tr>
+<th>Wire</th>
+<th>Type</th>
+<th>Best Use</th>
+<th>Tip Load</th>
+</tr>
+
+<tr>
+<td>Fielder FC</td>
+<td>Crossing Wire</td>
+<td>Soft lesions</td>
+<td>Low</td>
+</tr>
+
+<tr>
+<td>Command ES</td>
+<td>Workhorse</td>
+<td>General use</td>
+<td>Low</td>
+</tr>
+
+<tr>
+<td>Gladius</td>
+<td>Intermediate CTO</td>
+<td>Fibrotic CTO</td>
+<td>Moderate</td>
+</tr>
+
+<tr>
+<td>Halberd</td>
+<td>CTO Wire</td>
+<td>Fibrotic caps</td>
+<td>Moderate</td>
+</tr>
+
+<tr>
+<td>Astato XS20</td>
+<td>Penetration Wire</td>
+<td>Calcified CTO</td>
+<td>20 g</td>
+</tr>
+
+<tr>
+<td>Astato XS40</td>
+<td>Penetration Wire</td>
+<td>Resistant CTO</td>
+<td>40 g</td>
+</tr>
+
+<tr>
+<td>Winn 200T</td>
+<td>Aggressive CTO</td>
+<td>Extreme calcium</td>
+<td>Very High</td>
+</tr>
+
+</table>
+
+<h3>Support Catheter Comparison</h3>
+
+<table>
+
+<tr>
+<th>Catheter</th>
+<th>Strength</th>
+<th>Ideal Use</th>
+</tr>
+
+<tr>
+<td>CXI</td>
+<td>Excellent Support</td>
+<td>BTK and CTO</td>
+</tr>
+
+<tr>
+<td>Navicross</td>
+<td>Torque</td>
+<td>Selective catheterization</td>
+</tr>
+
+<tr>
+<td>Quick-Cross</td>
+<td>Exchange Platform</td>
+<td>General interventions</td>
+</tr>
+
+<tr>
+<td>Progreat</td>
+<td>Trackability</td>
+<td>Tibials</td>
+</tr>
+
+</table>
 
 </div>
 
 </section>
 
-<footer>
 
-<h3>Peripheral Vascular Intervention Masterclass</h3>
 
-<p>
-Designed for DM Neurointervention, IR Fellowship, DNB and INI-SS Preparation
-</p>
+<section>
 
-</footer>
+<h2>Chapter 22: CTO Decision Trees</h2>
 
+<div class="card">
+
+<h3>Soft CTO</h3>
+
+<pre>
+Fielder FC
+      ↓
+Command
+      ↓
+Support Catheter
+      ↓
+Balloon
+      ↓
+DCB
+</pre>
+
+<h3>Fibrotic CTO</h3>
+
+<pre>
+Command
+      ↓
+Gladius
+      ↓
+Halberd
+      ↓
+CXI Support
+      ↓
+Balloon
+</pre>
+
+<h3>Calcified CTO</h3>
+
+<pre>
+Command
+      ↓
+Halberd
+      ↓
+Astato XS20
+      ↓
+Astato XS40
+      ↓
+IVL
+      ↓
+DCB/Stent
+</pre>
+
+<h3>Failed Antegrade Crossing</h3>
+
+<pre>
+Antegrade Failure
+      ↓
+Retrograde Tibial Access
+      ↓
+Rendezvous Technique
+      ↓
+Externalization
+      ↓
+Definitive Treatment
+</pre>
+
+<div class="highlight">
+
+Always escalate support before escalating penetration power.
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Chapter 23: Fellowship and DM-Level MCQs</h2>
+
+<div class="card">
+
+<h3>MCQ 1</h3>
+<p>The primary purpose of a support catheter is:</p>
+<p>A. Drug delivery<br>
+B. Increase support and wire control<br>
+C. Prevent restenosis<br>
+D. Vessel closure</p>
+
+<p><strong>Answer:</strong> B</p>
+
+<hr>
+
+<h3>MCQ 2</h3>
+<p>Which wire is generally preferred as a first-line crossing wire in a soft CTO?</p>
+
+<p>A. Astato XS40<br>
+B. Winn 200T<br>
+C. Fielder FC<br>
+D. Amplatz</p>
+
+<p><strong>Answer:</strong> C</p>
+
+<hr>
+
+<h3>MCQ 3</h3>
+
+<p>The best stent for a popliteal artery lesion is:</p>
+
+<p>A. Balloon-expandable stent<br>
+B. Coronary DES<br>
+C. Supera<br>
+D. Bare stainless-steel stent</p>
+
+<p><strong>Answer:</strong> C</p>
+
+<hr>
+
+<h3>MCQ 4</h3>
+
+<p>IVL primarily works by:</p>
+
+<p>A. Thermal ablation<br>
+B. Rotational sanding<br>
+C. Sonic calcium fracture<br>
+D. Mechanical aspiration</p>
+
+<p><strong>Answer:</strong> C</p>
+
+<hr>
+
+<h3>MCQ 5</h3>
+
+<p>Which device is most commonly used for distal embolic protection during atherectomy?</p>
+
+<p>A. Viabahn<br>
+B. SpiderFX<br>
+C. CXI<br>
+D. Progreat</p>
+
+<p><strong>Answer:</strong> B</p>
+
+<hr>
+
+<h3>MCQ 6</h3>
+
+<p>Covered stents are particularly useful for:</p>
+
+<p>A. Soft stenosis<br>
+B. Perforation<br>
+C. Diagnostic angiography<br>
+D. Tibial spasm</p>
+
+<p><strong>Answer:</strong> B</p>
+
+<hr>
+
+<h3>MCQ 7</h3>
+
+<p>The most important determinant of successful CTO crossing is:</p>
+
+<p>A. Long sheath length<br>
+B. Maximum tip load wire<br>
+C. Adequate support<br>
+D. Stent choice</p>
+
+<p><strong>Answer:</strong> C</p>
+
+<hr>
+
+<h3>MCQ 8</h3>
+
+<p>Drug-coated balloons primarily reduce:</p>
+
+<p>A. Acute thrombosis<br>
+B. Restenosis<br>
+C. Vessel rupture<br>
+D. Embolization</p>
+
+<p><strong>Answer:</strong> B</p>
+
+<hr>
+
+<h3>MCQ 9</h3>
+
+<p>Which stent property makes Supera unique?</p>
+
+<p>A. Drug coating<br>
+B. Covered design<br>
+C. Interwoven nitinol architecture<br>
+D. Stainless steel platform</p>
+
+<p><strong>Answer:</strong> C</p>
+
+<hr>
+
+<h3>MCQ 10</h3>
+
+<p>The best bailout treatment for a significant arterial perforation during angioplasty is:</p>
+
+<p>A. DCB<br>
+B. Atherectomy<br>
+C. Covered stent<br>
+D. Additional wire escalation</p>
+
+<p><strong>Answer:</strong> C</p>
+
+<div class="highlight">
+
+For the complete website version, expand this section to 50–100 MCQs and place them in collapsible accordion cards.
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>The IR Learning – Key Takeaways</h2>
+
+<div class="card">
+
+<ul>
+
+<li>Access determines support.</li>
+
+<li>Support determines crossing success.</li>
+
+<li>Crossing determines treatment options.</li>
+
+<li>Vessel preparation determines long-term outcomes.</li>
+
+<li>Stents should be implanted only when necessary.</li>
+
+<li>Supera remains one of the most important stents for femoropopliteal disease.</li>
+
+<li>IVL has changed the treatment paradigm for severe calcium.</li>
+
+<li>Modern intervention increasingly follows:
+<br><br>
+<strong>Prepare → Deliver Drug → Avoid Implant</strong>
+</li>
+
+</ul>
+
+</div>
+
+</section>
 </body>
 </html>
